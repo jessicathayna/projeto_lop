@@ -136,7 +136,7 @@ function criarExplosao (tipo, x, y ){// 1=Ar, 2=Terra
        atributo2.value = "top:" + (tamanhoTelah-57) }+ "px; left:" + (x-17) + "px;";
        atributo4.value = "Xy8CttI.gif?" + new Date();
      }
-     atributo5.value = "AUDIO DA EXPLOSÃO?" + new Date();
+     atributo5.value = "Pixel Explosion - Green Screen.mp3?" + new Date();
      atributo6.value = "som" + indiceSom;
      explosao.setAttributeNode(atributo1);
      explosao.setAttributeNode(atributo2);
