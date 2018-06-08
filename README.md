@@ -136,7 +136,7 @@ function criarExplosao (tipo, x, y ){// 1=Ar, 2=Terra
        atributo2.value = "top:" + (tamanhoTelah-57) }+ "px; left:" + (x-17) + "px;";
        atributo4.value = "Xy8CttI.gif?" + new Date();
      }
-     atributo5.value = "Pixel Explosion - Green Screen.mp3?" + new Date();
+     atributo5.value = "explosao.mp3?" + new Date();
      atributo6.value = "som" + indiceSom;
      explosao.setAttributeNode(atributo1);
      explosao.setAttributeNode(atributo2);
@@ -152,6 +152,8 @@ function criarExplosao (tipo, x, y ){// 1=Ar, 2=Terra
      indiceExplosao++;
      indiceSom++;
 }
+
+
 
 function controlaJogador(){
     posicaoJogadory += direcaoJogadory * velocidadeJogador;
@@ -184,7 +186,7 @@ function inicia(){
     posicaoJogadorx = tamTelaw/2;
     posicaoJogadory = tamTelah/2;
     velocidadeJogador = velocidadeTiro = 6;
-    jogador = document.getElementById("ef41cc43bc.gif");
+    jogador = document.getElementById("oie_81885poKsr1u6.gif");
     jogador.style.top = posicaoJogadory + "px";
     jogador.style.left = posicaoJogadorx + "px";
 
