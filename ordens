@@ -18,13 +18,13 @@ body{
 .navJog{
   width:1024px;
   heigh:576px;
-  background-image:URL("ef41cc43bc.gif");
+  background-image:URL("oie_81885poKsr1u6.gif");
   position:absolute;
 }
 .bomba{
   width:1024px;
   heigh:576px;
-  background-image:URL("137a1665-390d-49a9-93e7-03a106e85edc.gif");
+  background-image:URL("oie_8181647sKrhBZ6H (1).gif");
   position:absolute;
 }
 .tiroJogador{
